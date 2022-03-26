@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		995644AF1B6161BE006767D9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995644AE1B6161BE006767D9 /* AppDelegate.swift */; };
+		995644B11B6161BE006767D9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995644B01B6161BE006767D9 /* ViewController.swift */; };
+		995644B31B6161BE006767D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 995644B21B6161BE006767D9 /* Images.xcassets */; };
+		995644B61B6161BE006767D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 995644B41B6161BE006767D9 /* Main.storyboard */; };
+		995644C21B6161BF006767D9 /* InfiniteScrollDialExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995644C11B6161BF006767D9 /* InfiniteScrollDialExampleTests.swift */; };
+		995644CE1B6161FC006767D9 /* InfiniteScrollDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995644CC1B6161FC006767D9 /* InfiniteScrollDial.swift */; };
+		995644CF1B6161FC006767D9 /* InfiniteScrollUnit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 995644CD1B6161FC006767D9 /* InfiniteScrollUnit.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		995644BC1B6161BF006767D9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 995644A11B6161BE006767D9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 995644A81B6161BE006767D9;
+			remoteInfo = InfiniteScrollDialExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		995644A91B6161BE006767D9 /* InfiniteScrollDialExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InfiniteScrollDialExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		995644AD1B6161BE006767D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995644AE1B6161BE006767D9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		995644B01B6161BE006767D9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		995644B21B6161BE006767D9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		995644B51B6161BE006767D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		995644BB1B6161BF006767D9 /* InfiniteScrollDialExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InfiniteScrollDialExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		995644C01B6161BF006767D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		995644C11B6161BF006767D9 /* InfiniteScrollDialExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfiniteScrollDialExampleTests.swift; sourceTree = "<group>"; };
+		995644CC1B6161FC006767D9 /* InfiniteScrollDial.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollDial.swift; sourceTree = "<group>"; };
+		995644CD1B6161FC006767D9 /* InfiniteScrollUnit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfiniteScrollUnit.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		995644A61B6161BE006767D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995644B81B6161BF006767D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		995644A01B6161BE006767D9 = {
+			isa = PBXGroup;
+			children = (
+				995644AB1B6161BE006767D9 /* InfiniteScrollDialExample */,
+				995644BE1B6161BF006767D9 /* InfiniteScrollDialExampleTests */,
+				995644AA1B6161BE006767D9 /* Products */,
+				995644CB1B6161FC006767D9 /* InfiniteScrollDial */,
+			);
+			sourceTree = "<group>";
+		};
+		995644AA1B6161BE006767D9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				995644A91B6161BE006767D9 /* InfiniteScrollDialExample.app */,
+				995644BB1B6161BF006767D9 /* InfiniteScrollDialExampleTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		995644AB1B6161BE006767D9 /* InfiniteScrollDialExample */ = {
+			isa = PBXGroup;
+			children = (
+				995644AE1B6161BE006767D9 /* AppDelegate.swift */,
+				995644B01B6161BE006767D9 /* ViewController.swift */,
+				995644B21B6161BE006767D9 /* Images.xcassets */,
+				995644B41B6161BE006767D9 /* Main.storyboard */,
+				995644AC1B6161BE006767D9 /* Supporting Files */,
+			);
+			path = InfiniteScrollDialExample;
+			sourceTree = "<group>";
+		};
+		995644AC1B6161BE006767D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				995644AD1B6161BE006767D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		995644BE1B6161BF006767D9 /* InfiniteScrollDialExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				995644C11B6161BF006767D9 /* InfiniteScrollDialExampleTests.swift */,
+				995644BF1B6161BF006767D9 /* Supporting Files */,
+			);
+			path = InfiniteScrollDialExampleTests;
+			sourceTree = "<group>";
+		};
+		995644BF1B6161BF006767D9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				995644C01B6161BF006767D9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		995644CB1B6161FC006767D9 /* InfiniteScrollDial */ = {
+			isa = PBXGroup;
+			children = (
+				995644CC1B6161FC006767D9 /* InfiniteScrollDial.swift */,
+				995644CD1B6161FC006767D9 /* InfiniteScrollUnit.swift */,
+			);
+			path = InfiniteScrollDial;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		995644A81B6161BE006767D9 /* InfiniteScrollDialExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995644C51B6161BF006767D9 /* Build configuration list for PBXNativeTarget "InfiniteScrollDialExample" */;
+			buildPhases = (
+				995644A51B6161BE006767D9 /* Sources */,
+				995644A61B6161BE006767D9 /* Frameworks */,
+				995644A71B6161BE006767D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InfiniteScrollDialExample;
+			productName = InfiniteScrollDialExample;
+			productReference = 995644A91B6161BE006767D9 /* InfiniteScrollDialExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		995644BA1B6161BF006767D9 /* InfiniteScrollDialExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 995644C81B6161BF006767D9 /* Build configuration list for PBXNativeTarget "InfiniteScrollDialExampleTests" */;
+			buildPhases = (
+				995644B71B6161BF006767D9 /* Sources */,
+				995644B81B6161BF006767D9 /* Frameworks */,
+				995644B91B6161BF006767D9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				995644BD1B6161BF006767D9 /* PBXTargetDependency */,
+			);
+			name = InfiniteScrollDialExampleTests;
+			productName = InfiniteScrollDialExampleTests;
+			productReference = 995644BB1B6161BF006767D9 /* InfiniteScrollDialExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		995644A11B6161BE006767D9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Konstantinos Hondros";
+				TargetAttributes = {
+					995644A81B6161BE006767D9 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					995644BA1B6161BF006767D9 = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 995644A81B6161BE006767D9;
+					};
+				};
+			};
+			buildConfigurationList = 995644A41B6161BE006767D9 /* Build configuration list for PBXProject "InfiniteScrollDialExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				English,
+				en,
+				Base,
+			);
+			mainGroup = 995644A01B6161BE006767D9;
+			productRefGroup = 995644AA1B6161BE006767D9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				995644A81B6161BE006767D9 /* InfiniteScrollDialExample */,
+				995644BA1B6161BF006767D9 /* InfiniteScrollDialExampleTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		995644A71B6161BE006767D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995644B31B6161BE006767D9 /* Images.xcassets in Resources */,
+				995644B61B6161BE006767D9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995644B91B6161BF006767D9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		995644A51B6161BE006767D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995644CF1B6161FC006767D9 /* InfiniteScrollUnit.swift in Sources */,
+				995644B11B6161BE006767D9 /* ViewController.swift in Sources */,
+				995644AF1B6161BE006767D9 /* AppDelegate.swift in Sources */,
+				995644CE1B6161FC006767D9 /* InfiniteScrollDial.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		995644B71B6161BF006767D9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				995644C21B6161BF006767D9 /* InfiniteScrollDialExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		995644BD1B6161BF006767D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 995644A81B6161BE006767D9 /* InfiniteScrollDialExample */;
+			targetProxy = 995644BC1B6161BF006767D9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		995644B41B6161BE006767D9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				995644B51B6161BE006767D9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		995644C31B6161BF006767D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		995644C41B6161BF006767D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		995644C61B6161BF006767D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InfiniteScrollDialExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Debug;
+		};
+		995644C71B6161BF006767D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = InfiniteScrollDialExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+			};
+			name = Release;
+		};
+		995644C91B6161BF006767D9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfiniteScrollDialExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollDialExample.app/Contents/MacOS/InfiniteScrollDialExample";
+			};
+			name = Debug;
+		};
+		995644CA1B6161BF006767D9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InfiniteScrollDialExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InfiniteScrollDialExample.app/Contents/MacOS/InfiniteScrollDialExample";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		995644A41B6161BE006767D9 /* Build configuration list for PBXProject "InfiniteScrollDialExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995644C31B6161BF006767D9 /* Debug */,
+				995644C41B6161BF006767D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995644C51B6161BF006767D9 /* Build configuration list for PBXNativeTarget "InfiniteScrollDialExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995644C61B6161BF006767D9 /* Debug */,
+				995644C71B6161BF006767D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		995644C81B6161BF006767D9 /* Build configuration list for PBXNativeTarget "InfiniteScrollDialExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				995644C91B6161BF006767D9 /* Debug */,
+				995644CA1B6161BF006767D9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 995644A11B6161BE006767D9 /* Project object */;
+}
